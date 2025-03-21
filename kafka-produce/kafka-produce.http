@@ -1,0 +1,6 @@
+@kafka_produce_HostAddress = http://localhost:5189
+
+GET {{kafka_produce_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
